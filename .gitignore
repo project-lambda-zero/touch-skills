@@ -1,0 +1,19 @@
+# Operator work directory -- audit reports, commit drafts, debug logs.
+# Gitignored on every repo; never push.
+.run/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor cruft
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python (only relevant if someone scripts skill validation)
+__pycache__/
+*.pyc
+.venv/
